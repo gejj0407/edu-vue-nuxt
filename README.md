@@ -44,7 +44,7 @@
     <span style="color: #9cdcfe;"></span>定义环境变量，并指向，pageage中加入cross-env的包：<br/>
 </p>
 <p>
-    我们通过cross-env设置环境变量，可以很好的是适配多个平台，无需根据平台来设置相对应的变量。
+    我们通过cross-env设置环境变量，可以很好的适配多个平台，无需根据平台来设置相对应的变量。
 </p>
 <p>
     <br/>
