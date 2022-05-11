@@ -16,6 +16,5 @@ export default (ctx, inject) => {
     )
   Vue.prototype.$services = services
   inject('services', services)
-  inject('temps', services)
 }
 export { services }
