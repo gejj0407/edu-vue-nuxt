@@ -17,6 +17,9 @@ export default {
     ]
   },
 
+  // 针对服务器端可以新增二级域名
+  base: '/my-project',
+
   env: {
     PROJECT_ENV: process.env.PROJECT_ENV,
   },
@@ -24,7 +27,7 @@ export default {
   publicRuntimeConfig: {
     ...environment,
   },
-  
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     'element-ui/lib/theme-chalk/index.css'
@@ -43,6 +46,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/eslint-module'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

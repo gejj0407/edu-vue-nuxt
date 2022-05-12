@@ -15,6 +15,7 @@ export default (ctx, inject) => {
       {}
     )
   Vue.prototype.$services = services
+  // 注入全局上下文ctx中
   inject('services', services)
 }
 export { services }
