@@ -56,7 +56,7 @@
     <br/>
 </p>
 <p>
-    <strong><span style="font-size: 18px; color: rgb(0, 0, 0);">四、编写一个关于services的总扎口，针对所有的services以下所有的模块都挂载到vue上。</span></strong>
+    <strong><span style="font-size: 18px; color: rgb(0, 0, 0);">四、编写一个关于services的总扎口，使用plugin中inject参数暴露services,services注入到服务端context, vue实例, vuex中。</span></strong>
 </p>
 <p>
     ps：这样写有一个好处，传统的xxxService需要在单独页面进行import才能使用。这样写可以，省去引用，直接用this.$service.xxxModule.get()
